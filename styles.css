@@ -32,3 +32,27 @@ li {
 #menu {
     padding-top: 20px;
 }
+
+
+#order-pizza {
+    color: #000;
+}
+
+
+#list li {
+    font-size: 24px;
+    font-family: system-ui, serif;
+}
+.contacts{
+
+
+    background-image: url("images/bg_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-overlay{
+
+    height: inherit;
+    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
+}
