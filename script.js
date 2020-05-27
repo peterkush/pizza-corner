@@ -61,3 +61,16 @@ function calctotalPrice(e) {
     alert("Your order of " + getNumber() + " pizzas has been processed.Your total amount payable is " + totalPrice +"." )
 
 }
+
+$(document).ready(function () {
+    $("#delivery").submit(function () {
+
+        var name = $("input#name").val();
+        var number = $("input#number").val();
+        var location = $("input#location").val();
+
+        alert("Hello " + name + ". Your order has been successfuly received and will be delivered to " +  location + " within one hour.The delivery will cost ksh 200/= Thank you for chosing pizza corner.");
+     
+    });
+    
+});
