@@ -56,3 +56,56 @@ li {
     background-color: rgba(0,0,0,0.7);
     background-color: rgba(0, 0, 0, 0.7);
 }
+input[type="email"] {
+    background: transparent;
+    border: 1px solid #ffffff;
+
+    outline: none !important;
+    font-size: 14px;
+}
+.click-me{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact{
+
+
+    padding-top: 20px;
+}
+.click-me, button[type=submit] {
+
+
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+
+.click-me, button[type=submit], .deliver, .delivernot {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #1548d4;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+
+
+.landing {
+    background-color: #000;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#push {
+    padding-top: 10%;
+}
