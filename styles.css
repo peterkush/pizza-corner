@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #ffffff;
+}
+a {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
